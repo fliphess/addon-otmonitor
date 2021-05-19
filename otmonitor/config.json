@@ -1,6 +1,6 @@
 {
     "name": "otmonitor",
-    "version": "2021.01.04",
+    "version": "2021.05.19",
     "slug": "otmonitor",
     "description": "otmonitor add-on by Bas Nijholt",
     "url": "https://github.com/basnijholt/addon-otmonitor",
@@ -9,11 +9,7 @@
     "hassio_role": "default",
     "services": ["mqtt:want"],
     "arch": [
-        "aarch64",
-        "amd64",
-        "armhf",
-        "armv7",
-        "i386"
+        "amd64"
     ],
     "boot": "auto",
     "ingress": true,
